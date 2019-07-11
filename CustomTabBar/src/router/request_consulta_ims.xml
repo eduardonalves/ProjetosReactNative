@@ -1,0 +1,27 @@
+</soapenv:Header>
+    <soapenv:Body>
+        <ns1:CreateWorkItem xmlns:ns1="http://lucent.com/ims/intf3">
+            <parameters>
+                <request>
+                    <parameters>
+                        <MapItems>
+                            <key>actionCode</key>
+                            <value>Retrieve</value>
+                        </MapItems>
+                        <MapItems>
+                            <key>service</key>
+                            <value>B_IMS_Subscription</value>
+                        </MapItems>
+                        <group>
+                            <groupName>B_IMS_Subscription</groupName>
+                            <item>
+                                <key>SubscriptionIdentity</key>
+                                <value>4-26A2QXV</value>
+                            </item>
+                        </group>
+                    </parameters>
+                </request>
+            </parameters>
+        </ns1:CreateWorkItem>
+    </soapenv:Body>
+</soapenv:Envelope>

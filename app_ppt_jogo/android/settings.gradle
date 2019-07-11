@@ -1,0 +1,3 @@
+rootProject.name = 'app_ppt_jogo'
+
+include ':app'
